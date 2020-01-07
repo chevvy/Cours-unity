@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\vince\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\vince\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_terminal hacker.1634816999.00" t="ExcludeRecursive" />
-    <e p="C:\Users\vince\Documents\Git\cours unity\2_terminal_hacker\terminal hacker" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="WM2000" t="Include">
@@ -24,8 +22,10 @@
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="terminal hacker.sln" t="IncludeFlat" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_terminal hacker.-1181782174.00" t="ExcludeRecursive" />
   </component>
 </project>

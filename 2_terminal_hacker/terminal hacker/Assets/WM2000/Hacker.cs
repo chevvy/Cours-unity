@@ -27,7 +27,15 @@ public class Hacker : MonoBehaviour
 
     void OnUserInput(string input)
     {
-        print(input);
+        if (input == "menu")
+        {
+            ShowMainMenu("Hello again");
+        }
+        else
+        {
+            Terminal.WriteLine("Please choose a valid option");
+        }
+        
     }
 
     // Update is called once per frame
