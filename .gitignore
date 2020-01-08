@@ -9,6 +9,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+!.gitignore
+!/Assets/
+!/ProjectSettings/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
