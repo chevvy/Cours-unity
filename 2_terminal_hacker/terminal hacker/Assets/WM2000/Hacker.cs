@@ -43,6 +43,36 @@ public class Hacker : MonoBehaviour
         {
             RunMainMenu(input);
         }
+        else if (currentScreen == Screen.Password)
+        {
+            string passwordLevel1 = "poop";
+            string passwordLevel2 = "sweet";
+            if (level == 1)
+            {
+                if (input == passwordLevel1)
+                {
+                    Terminal.WriteLine("Congrats !");
+                    Terminal.WriteLine("type menu to go back to the main menu");
+                }
+                else
+                {
+                    Terminal.WriteLine( "wrong answer ! ");
+                }
+            }
+
+            if (level == 2)
+            {
+                if (input == passwordLevel2)
+                {
+                    Terminal.WriteLine("Congrats !");
+                    Terminal.WriteLine("type menu to go back to the main menu");
+                }
+                else
+                {
+                    Terminal.WriteLine( "wrong answer ! ");
+                }
+            }
+        }
     }
 
     void RunMainMenu(string input)
@@ -72,6 +102,7 @@ public class Hacker : MonoBehaviour
         Terminal.WriteLine("You have chosen level " + level); 
         Terminal.WriteLine("Please enter your password :");
         currentScreen = Screen.Password;
+        
     }
 
     // Update is called once per frame
