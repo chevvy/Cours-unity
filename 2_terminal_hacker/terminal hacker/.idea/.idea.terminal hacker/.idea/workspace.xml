@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="998b7542-ac59-41e7-8a37-552c94af64a5" name="Default Changelist" comment="Cours 23 refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="998b7542-ac59-41e7-8a37-552c94af64a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.terminal hacker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/WM2000/Hacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WM2000/Hacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/55cdf2-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/55cdf2-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/0e/0e91b1478086c0649b1916482fef7a36" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0e/0e91b1478086c0649b1916482fef7a36" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +25,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/Terminal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WM2000/Hacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WM2000/Terminal/Terminal.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,7 +54,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Inspections-IDEA" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -92,6 +97,7 @@
       <workItem from="1578410192380" duration="991000" />
       <workItem from="1578429686733" duration="2688000" />
       <workItem from="1578444182883" duration="2430000" />
+      <workItem from="1578493942370" duration="1897000" />
     </task>
     <servers />
   </component>
@@ -118,14 +124,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Cours 23 refactoring" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="78" key="SettingsEditor" timestamp="1578410546935">
+    <state x="283" y="78" key="SettingsEditor" timestamp="1578493996886">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-360.-1080.2560.1040@0.0.1920.1040" timestamp="1578343362987" />
-    <state x="283" y="78" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578410546935" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1578343980361">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="283" y="78" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578493996886" />
+    <state x="415" y="202" width="672" height="507" key="search.everywhere.popup" timestamp="1578501634785">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-360.-1080.2560.1040@0.0.1920.1040" timestamp="1578343980361" />
+    <state x="415" y="202" width="672" height="507" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1578501634785" />
   </component>
 </project>
