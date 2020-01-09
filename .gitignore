@@ -63,3 +63,5 @@ crashlytics-build.properties
 3_project_boost/Project boost/Packages/
 
 3_project_boost/Project boost/Logs/
+
+3_project_boost/Project boost/Temp/
