@@ -56,8 +56,8 @@ public class Hacker : MonoBehaviour
             {
                 if (input == password)
                 {
-                    Terminal.WriteLine("Congrats !");
-                    Terminal.WriteLine("type menu to go back to the main menu");
+                   DisplayWinScreen();
+                   PasswordGeneration();
                 }
                 else
                 {
@@ -69,8 +69,8 @@ public class Hacker : MonoBehaviour
             {
                 if (input == password)
                 {
-                    Terminal.WriteLine("Congrats !");
-                    Terminal.WriteLine("type menu to go back to the main menu");
+                    DisplayWinScreen();
+                    PasswordGeneration();
                 }
                 else
                 {
@@ -101,9 +101,10 @@ public class Hacker : MonoBehaviour
     private void StartGame()
     {
         Terminal.WriteLine("You have chosen level " + level); 
-        Terminal.WriteLine("Please enter your password :");
         currentScreen = Screen.Password;
         PasswordGeneration();
+        Terminal.WriteLine("Please enter your password : , hint : " + password.Anagram());
+        
 
     }
 
@@ -125,6 +126,14 @@ public class Hacker : MonoBehaviour
                 break;
 
         }
+    }
+
+    void DisplayWinScreen()
+    {
+        currentScreen = Screen.Win;
+        Terminal.ClearScreen();
+        Terminal.WriteLine("Well Done ! ");
+        Terminal.WriteLine("Type menu to go back");
     }
 
     // Update is called once per frame
