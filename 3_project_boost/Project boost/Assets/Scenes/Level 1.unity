@@ -132,7 +132,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049317829}
   serializedVersion: 2
-  m_Mass: 0.1
+  m_Mass: 0.08
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -152,6 +152,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb08493e6814483a915304577b031d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2049317833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049317829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.98, y: 4.24, z: 1}
+  m_Center: {x: 0, y: 0.53, z: 0}
 --- !u!1001 &1138468160536476141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -374,7 +387,7 @@ PrefabInstance:
     - target: {fileID: 2651472788248507217, guid: 48073b62268254e4491ef486b97feda8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.33
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 2651472788248507217, guid: 48073b62268254e4491ef486b97feda8,
         type: 3}
